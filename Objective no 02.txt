@@ -1,0 +1,37 @@
+OBJECTIVE NO 02
+PSEUDOCODE
+Task # 02
+->Take three variables as input and add them without using the + operator.
+START
+Read a
+Read b
+Read c
+Set Sum = 0
+Set b = -b
+Set c = -c
+Sum = a-(-b)-(-c)
+Print the Sum
+END
+
+Task # 03
+->Create a small calculator which only does ‘+’ or ‘-‘Operations.
+
+START
+Input num 1 
+Input num 2
+Input num3
+
+Print for sum num 3 = 1
+Print for sub num 3 = 2
+
+If (num 3 = 1)
+Set sum = 0
+Set sum = num 1 + num 2
+Print sum
+Else If (num 3 = 2)
+Set sub = 0
+Set sub = num 1 - num 2
+Print sub
+
+Else 
+Print wrong operation

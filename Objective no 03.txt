@@ -1,0 +1,61 @@
+OBJECTIVE NO 03
+
+ALGORITHM
+Task # 01
+->Implement an algorithm for determining if an Nth is a divisor of an n Number (i.e. 2 is a divisor of 6). If so, determine if it’s an even number or odd number as well.
+
+1.	Ask the user to enter Nth number
+2.	Ask the user to enter n number
+3.	Set Div= n/Nth
+4.	If Nth * Div = n
+5.	Display Nth is a divisor of n
+6.	Set n = Nth/2 
+7.	If (n * 2 = Nth)
+8.	Display Nth is even
+9.	Else Nth is odd
+10.	  Set Nth = n/2
+11.	 If (Nth * 2 = n)
+12.	 Display n is even
+13.	 Else n is odd
+14.	 Else n is not the divisor of Nth
+
+
+
+Task # 03
+->Implement an algorithm for making a simple calculator with all the operators (+,-,*, /, %).
+
+1.	Ask the user to enter num 1
+2.	Ask the user to enter num 2
+3.	Display for user that:
+For + enter 3
+For – enter 4
+For * enter 5
+For / enter 6
+For % enter 7
+4.	Ask the user to enter operator num
+5.	If operator num is 3
+6.	Set sum = 0
+7.	Sum = num 1 + num2 
+8.	Display sum
+9.	Else If operator num is 4
+10.	 Set sub = 0
+11.	 sub = num 1 - num2 
+12.	 Display sub
+13.	Else If operator num is 5
+14.	 Set multiplication = 0
+15.	 multiplication = num 1 * num2 
+16.	 Display multiplication
+17.	Else If operator num is 6
+18.	 Set div = 0
+19.	If num2 = 0
+20.	Display not valid
+21.	 Else 
+22.	 div = num 1 /num2 
+23.	 Display div
+24.	Else If operator num is 7
+25.	 Set modules= 0
+26.	 modules= num 1 % num2 
+27.	 Display modules
+28.	Else 
+29.	Display the operator is wrong
+
