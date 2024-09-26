@@ -15,3 +15,4 @@ Implement an algorithm for determining if an Nth is a divisor of an n Number(i.e
 12. Display n is even
 13. Else n is odd
 14. Else n is not the divisor of Nth
+15. else or not
